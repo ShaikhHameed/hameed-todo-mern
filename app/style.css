@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --theme-primary:rgb(44, 44, 44);
+    --theme-secondary:rgb(80, 80, 80);  
+}
+
+*{
+    word-break: break-all;
+}
+
+/* Common Classes */
+
+.bg-theme{
+    background-color: var(--theme-primary) !important;
+}
+.bg-secondary{
+    background-color: var(--theme-secondary) !important;
+}
+
+.text-theme{
+    color: var(--theme-primary);
+}
+
+.text-secondary{
+    color: var(--theme-secondary);
+}
+
+/* Form Styling */
+
+.theme-input{
+    padding: 0.5rem 1rem;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.theme-input:hover{
+    background-color: #f3f3f3;
+}
+.theme-input:focus,.theme-input:active{
+    border: 1px solid var(--theme-primary);
+    outline:none;
+}
+
