@@ -27,4 +27,4 @@ All user data and authentication details are fetched from:
 
 
 ## How to Run the App  
-install or Update Node Modules using `npm install` and run the app using `npm run build` and `npm start`. or run the app on Developmnent environment using `npm run dev`.
+install or Update Node Modules using `npm install` and run the app using `npm run build` and `npm start`. or run the app on Developmnent environment using `npm run dev`. use `http://localhost:3000/` to run on the local Environment. 
